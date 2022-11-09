@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color:  rgb(34, 55, 74);
+    padding: 40px 80px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+    float: right;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 12px;  
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.8px;
+}
+.billboard{
+    background-color: rgb(0, 188, 156);
+    text-align: center; 
+    color: white;
+    font-size: 10px;
+    height: 375px;
+
+}
+.billboard h1{
+    font-size: 30px;
+    margin: 10px;
+}
+.billboard p{
+    font-size: 12px;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+.portfolio{
+    text-align: center;
+    padding-top: 50px;
+}
+.pictures{
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+    letter-spacing: 20px;
+}
+.pictures2{
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 20px;
+    padding-bottom: 40px;
+}
+.Aboutus{
+    text-align: center;
+    padding-top: 70px;
+    background-color:  rgb(0, 188, 156);
+    color: white;
+    height: 500px;
+    font-size: 16px;
+}
+.Aboutus p{
+    margin-top: 20px;
+    font: size 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.paragraph1{
+    float: left;
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 440px;
+    text-align: justify;
+    border-spacing: 10px;
+}
+.paragraph2{
+    float: right;
+    padding-top: 10px;
+    display: inline-block;
+    padding-right: 400px;
+    text-align: justify;
+    padding-top: 10px; 
+}
+.Aboutus h2{
+    font-size: 35px;
+}
+.Contactme{
+    text-align: center;
+    margin: 10px;
+    padding-top: 50px;
+    height: 700px;
+    font-size: 18px;
+}
+.p2{
+  padding-bottom: 140px;
+}
+.p1{
+    padding-top: 50px;
+}
+.Contactme p{
+    text-align: left;
+    padding-left: 370px;
+    color: grey;   
+}
+.solid{ 
+    margin-right: 26%;
+    margin-left: 26%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: lightgray;
+}
+
+.send{
+    background-color:  rgb(0, 188, 156);
+    color: white;
+    padding:15px 19px;
+    border-radius: 4px; 
+    border: 2px;
+    font-size: 15px;
+    text-align: left;
+    float: left;
+    margin-left: 370px;
+}
+.btn{
+    border: 2px solid white;
+    background-color: rgb(0, 196, 159);
+    color: white;
+    padding: 16px 28px;
+    font-size: 16px;
+    border-radius: 8px;   
+}
+.button{
+    margin-top: 250px;
+}
+.US{
+    background-color:  rgb(41, 61, 82);
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    height: 270px;
+    font-size: 12px;
+    width: 100%;
+}
+.US p{
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: Arial;
+    margin: 10px;
+}
+.US h3{
+    font-size: 23px;
+    letter-spacing: 0.2px;
+}
+.location{
+    float: left;
+    padding-top: 50px;
+    margin-left: 260px;
+}
+.web{
+    float: left;
+    text-align: center;
+    padding-top: 50px; 
+    margin-left: 130px;  
+}
+.imgs{
+    padding-top: 20px;
+}
+
+.freelance{
+    float: right;
+    margin-right: 160px;
+    margin-top: 50px;  
+}
+.freelance p{
+    padding-top: 20px;
+}
+.text{
+    padding-top: 15px;
+}
+.copy{
+    text-align: center;
+    color: white;
+    background-color:  rgb(36, 45, 52);
+    font-size: 12px;
+    padding-top: 30px;
+    height: 70px;
+}
+
+.mm{
+    display: inline;
+    padding-top: 20px;
+    margin: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 40px;
+    padding: 8px;
+    
+}
+
+
+
+
+   
+ 
+
+   
+
+
+
