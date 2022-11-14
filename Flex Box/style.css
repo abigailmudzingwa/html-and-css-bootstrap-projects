@@ -12,18 +12,25 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-position: left;
+    background-size: cover;
+}
+.hero{
+    font-style: italic;
+    font-weight: bold;
 }
 .hero h1{
     font-weight: bold;
     font-size: 50px;
 }
-.btn{
+.hero button{
     background-color: rgb(0, 129, 162);
-    height: 40px;
-    width: 120px;
-    color: white;
-    border: 2px;
+    padding: 14px 28px;
     border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
 }
 .s2{
     display: flex;
@@ -31,16 +38,263 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 50vh;
 }
-.s3{
+.s2 button{
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 16px 30px;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+}
+
+.s2 p{
+    color: grey;
+    font-weight: lighter;
+}
+
+
+.services{
+    background-color: rgb(0, 128, 163); 
+    height: 70vh;
     display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    margin-top: 80px; 
+}
+
+.serv{
+    color: rgb(243,188,0);
+    padding-top: 20px;
 
 }
 
-.text{
-display: flex;
+.offer{
+    color: white;
+    font-size: 43px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+ padding-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+   
+}
+
+.serve{
+    color: lightblue;
+    font-weight: lighter;
+}
+
+.icon {
+    margin-right:  70px;
+}
+
+.fa{
+    font-size: 50px;
+    color: rgb(0, 128, 163) ;
+    border-radius: 50%;
+    background: white;
+    border: 20px solid white;
+}
+
+.s4{
+    display: flex;
+    background: url(img/bg-callout.jpg);
+    height: 82vh;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+    background-position: center right;
+    font-size: 30px;
+    font-weight: normal;
+    word-spacing: 10px;
+}
+.s4 button{ 
+    background-color: rgb(0, 129, 162);
+    border-radius: 3px;
+    padding: 16px 28px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    font-weight: bold;
+
+}
+
+.p1{
+    background: url(img/portfolio-1.jpg);
+    height: 40vh;
+    width: 40%;
+    background-position: right;
+}
+.p2{
+    background: url(img/portfolio-2.jpg);
+    height: 40vh;
+    width: 40%;
+    font-weight: lighter;
+}
+.p3{
+    background: url(img/portfolio-3.jpg);
+    height: 40vh;
+    width: 40%;
+}
+.p4{ 
+    background: url(img/portfolio-4.jpg);
+    height: 40vh;
+    width: 40%;
+}
+.s5{
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 20vh;
+}
+.portfolio{
+    color: rgb(234, 117, 0);
+    font-size: 10px;
+}
+.recent{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 4px;
+    font-size: 37px;
+}
+
+.first{
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: white;
+}
+.first p{
+align-items: flex-end;
+padding-top: 200px;
+display: flex;
+flex-direction: row;
+margin-left: 50px;
+font-weight: lighter;
+}
+
+.second{
+    align-items: center;
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    color: white;
+ 
+    
+ }
+ .second p{
+ 
+ align-items: flex-end;
+ padding-top: 200px;
+ display: flex;
+ flex-direction: row;
+ margin-left: 50px;
+ 
+ }
+  
+
+
+.s6{
+    display: flex;
+    background-color:  rgb(0, 130, 166);
+    height: 41vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 100px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    border: none;
+}
+.click{
+    background-color:rgb(248, 249, 250);
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin-right: 20px;
+}
+.look{
+    border-radius: 4px;
+    color: white;
+    background-color:rgb(51, 58, 64);
+    font-size: 14px;
+    border: 2px;
+    height: 40px;
+    width: 120px;
+    margin-right: 20px;
+}
+.s7{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 50px;
+  
+}
+
+.footer{
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  padding-top: 50px;
+    text-align: center;
+    color: rgb(20, 122, 151);
+ 
+    
+}
+
+.fac{
+    font-size: 50px;
+    padding-right: 50px;
+}
+
+.twitter{
+    font-size: 50px;
+    padding-right: 50px; 
+   
+}
+
+.git{
+    font-size: 50px;
+    padding-right: 50px;   
+}
+
+.copy{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  padding-top: 35px;
+    text-align: center;  
+    color: gray; 
 }
