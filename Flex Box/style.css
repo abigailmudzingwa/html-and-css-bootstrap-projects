@@ -19,13 +19,17 @@
     font-style: italic;
     font-weight: bold;
 }
+.hero p{
+    font-size: 20px;
+    color: rgb(54, 50, 50);
+}
 .hero h1{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
 }
 .hero button{
     background-color: rgb(0, 129, 162);
-    padding: 14px 28px;
+    padding: 21px 30px;
     border-radius: 3px;
     color: white;
     font-size: 12px;
@@ -38,13 +42,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 50vh;
+    height: 30vh;
 }
 .s2 button{
     color: white;
-    background-color: black;
+    background-color: rgb(68, 65, 65);
     border-radius: 3px;
-    padding: 16px 30px;
+    padding: 19px 30px;
     font-size: 14px;
     border: none;
     font-weight: bold;
@@ -123,7 +127,7 @@
 .s4 button{ 
     background-color: rgb(0, 129, 162);
     border-radius: 3px;
-    padding: 16px 28px;
+    padding: 19px 30px;
     font-size: 12px;
     color: white;
     border: none;
@@ -232,7 +236,7 @@ font-weight: lighter;
     color: black;
     font-size: 14px;
     border: none;
-    height: 40px;
+    height: 53px;
     width: 120px;
     margin-right: 20px;
 }
@@ -242,8 +246,8 @@ font-weight: lighter;
     background-color:rgb(51, 58, 64);
     font-size: 14px;
     border: 2px;
-    height: 40px;
-    width: 120px;
+    height: 54px;
+    width: 132px;
     margin-right: 20px;
 }
 .s7{
